@@ -6,7 +6,7 @@ from somos.items import Prof
 
 
 class SomosUfmgSpider(CrawlSpider):
-    #aqui e definido o nome da spider que sera chamado pelo comando "scrapy crawl -o output.xml NOME_DA_SPIDER"
+    #aqui e definido o nome da spider que sera chamada pelo comando "scrapy crawl -o output.xml NOME_DA_SPIDER"
     name = 'somosufmg'
     
     def start_requests(self):
